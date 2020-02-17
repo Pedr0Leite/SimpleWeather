@@ -1,0 +1,18 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+div.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: auto;
+    width: max-content;
+    background-color: cornsilk;
+    align-self: center;
+}
+
+body{
+    background-color: burlywood;
+}
