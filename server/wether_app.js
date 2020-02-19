@@ -2,13 +2,11 @@
 const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
+const api_key = require('./credentials');
 var app = express();
 
 
-var port = process.env.PORT || 1313;
-
-const api_key = 'a695e58ebb1adf521c0e698ce505c890';
-
+var port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
