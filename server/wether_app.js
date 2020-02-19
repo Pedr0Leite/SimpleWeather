@@ -2,7 +2,7 @@
 const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
-const api_key = require('./credentials'); //Credentials aka API key
+const api_key = require('./credentials'); //Credentials aka API key for WeatherAPP
 var app = express();
 
 
