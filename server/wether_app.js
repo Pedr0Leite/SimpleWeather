@@ -2,7 +2,7 @@
 const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express');
-const api_key = require('./credentials');
+const api_key = require('./credentials'); //Credentials aka API key
 var app = express();
 
 
